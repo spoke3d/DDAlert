@@ -15,6 +15,7 @@
 		BC62139F1C82CC6F0086661D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC62139D1C82CC6F0086661D /* LaunchScreen.storyboard */; };
 		BC6213AA1C82CC6F0086661D /* DDAlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6213A91C82CC6F0086661D /* DDAlertsTests.swift */; };
 		BC6213B51C82CC6F0086661D /* DDAlertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6213B41C82CC6F0086661D /* DDAlertsUITests.swift */; };
+		BC6213C31C84A3100086661D /* DDAlertQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6213C21C84A3100086661D /* DDAlertQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BC6213B01C82CC6F0086661D /* DDAlertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDAlertsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6213B41C82CC6F0086661D /* DDAlertsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDAlertsUITests.swift; sourceTree = "<group>"; };
 		BC6213B61C82CC6F0086661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6213C21C84A3100086661D /* DDAlertQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDAlertQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BC62139D1C82CC6F0086661D /* LaunchScreen.storyboard */,
 				BC6213A01C82CC6F0086661D /* Info.plist */,
 				BC6213981C82CC6F0086661D /* DDAlerts.xcdatamodeld */,
+				BC6213C21C84A3100086661D /* DDAlertQueue.swift */,
 			);
 			path = DDAlerts;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				BC6213941C82CC6F0086661D /* ViewController.swift in Sources */,
 				BC62139A1C82CC6F0086661D /* DDAlerts.xcdatamodeld in Sources */,
+				BC6213C31C84A3100086661D /* DDAlertQueue.swift in Sources */,
 				BC6213921C82CC6F0086661D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
